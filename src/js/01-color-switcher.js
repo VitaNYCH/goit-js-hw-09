@@ -37,7 +37,6 @@ const colorSwitcher = {
         clearInterval(this.intervalId);
         refs.startBtn.disabled = false;
         refs.stopBtn.disabled = true;
-        refs.bodyEl.style.backgroundColor = null;  
         this.isActive = false;
     },      
 }
