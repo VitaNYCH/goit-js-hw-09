@@ -65,7 +65,7 @@ function startTimer() {
     clearInterval(intervalId);
   }
   else
-    countDownTime = convertMs(subtract);
+  countDownTime = convertMs(subtract);
   formatTime(countDownTime);
 }
 
