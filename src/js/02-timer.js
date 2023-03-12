@@ -12,6 +12,7 @@ const refs = {
 
 let subtract = 0;
 let intervalId = null;
+let countDownTime = null;
  const options = {
    enableTime: true,
    time_24hr: true,
